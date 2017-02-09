@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>首页</title>
+</head>
+<body>
+	<form action="/servlet1/user1" method="post"enctype="multipart/form-data">
+		账号：<input type="text" name="account"><br>
+		昵称：<input type="text" name="nickName"><br>
+		密码：<input type="password" name="password"><br>
+		年龄：<input type="text" name="age"><br>
+		性别：<label><input name="sex" type="radio" value="male" />男</label> 
+		<label><input name="sex" type="radio" value="female" />女 </label> <br>
+		头像：<input type="file" name="headImage"><br>
+		<input type="submit" value="提交"> 
+	</form>
+</body>
+</html>
